@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=10">
+    <title>Limite absolue</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <div id="global">
+    <header>
+        <img class="logo" src="images/logo.jpg" alt="logo">
+        <nav>
+            <ul class="navi">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#article"> Article</a></li>
+                <li><a  href="#inscription">Inscription</a></li>
+                <li><a  href="#tableau">Ouverture</a></li>
+                <li><a  href="#gallerie">Galerie</a></li>
+                <li><a  href="#video">Vidéo</a></li>
+                <li><a  href="#footer">Pied de page</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="accueil">
+            <h1>Limite Absolue</h1>
+            <p>TP2</p>
+            <p>Alexy Gendreau</p>
+            <p>582-1W1- Mise en page Web</p>
+            <p>Technique d'intégration multimédia</p>
+            <p>Collège de Maisonneuve</p>
+            <p>Automne 2022</p>
+        </div>
+        <h1>Article</h1>
+      <div id="article">
+        
+        <figure>
+            <div class="hover-animation">
+            <img src="images/intake1.5.jpg" class="img-back" alt="intake">
+            <img src="images/intake1.jpg" class="img-front" alt="intake">
+            </div>
+
+          <figcaption>
+            <h2>Intake CTS</h2>
+            <p>450$</p>
+            <a href="#inscription">Achetez Mainteant ! </a>
+          </figcaption>
+        </figure>
+
+        <figure>
+            <div class="hover-animation">
+            <img src="images/intake2.5.jpg" class="img-back" alt="intake">
+            <img src="images/intake2.jpg" class="img-front" alt="intake">
+            </div>
+
+          <figcaption>
+            <h2>BMS DUAL INTAKES</h2>
+            <p>650$</p>
+            <a href="#inscription">Achetez Mainteant ! </a>
+          </figcaption>
+        </figure>
+        </div>
+        <div id="inscription">
+            <h1>Inscription</h1>
+            <div class="inscrit">
+            <form>
+                <label for="email">Email:</label>
+                <input type="text" id="Email" placeholder="Email">
+
+                <label for="Prénom">
+                    Prénom:
+                </label>
+                <input type="text" id="Prénom" placeholder="Prénom">
+
+                <label for="Nom de famille">
+                    Nom de famille:
+                </label>
+                <input type="text" id="Nom de famille" placeholder="Nom de famille">
+
+                <label for="Adresse">
+                    Adresse:
+                </label>
+                <input type="text" id="Adresse" placeholder="Adresse">
+
+              
+                <label for="Achat">Achat:</label>
+                <select id="Achat" name="Achat">
+                    
+               <option value="Aucun">Aucun</option>
+                <option value="IntakeMK">Intake CTS</option>
+                <option value="IntakeMC">BMS Dual Intake</option>
+                </select>
+                <input class="submit" type="submit" value="Envoyez">
+            </form>
+        </div>
+        <div id="tableau">
+
+        <h1>Ouverture</h1>
+        <table class="table">
+
+            <thead>
+                <tr>
+                    <th>Lundi </th>
+                    <th>Mardi</th>
+                    <th>Mercredi</th>
+                    <th>Jeudi</th>
+                    <th>Vendredi</th>
+                    <th>Samedi</th>
+                    <th>Dimanche</th>
+                </tr>
+            </thead>
+            
+    
+            <tbody>
+                <tr>
+                    <td>8h@18h</td>
+                    <td>8h@18h</td>
+                    <td>8h@18h</td>
+                    <td>8h@21h</td>
+                    <td>8h@21h</td>
+                    <td>10h@17h</td>
+                    <td>10h@17h</td>
+                </tr>
+            </tbody>
+    
+        </table>
+        </div>
+        </div>
+        <div id="gallerie">
+            <h1>Gallerie</h1>
+            <img class="vk" src="images/2021-Volkswagen-Golf-GTI-Clubsport-45-007.jpg" alt="VK MK7.5" width="600" height="253">
+            <img class="mercedes" src="images/433180-la-mercedes-amg-gt-black-series-pousse-la-puissance-au-max.jpg" alt="VK MK7.5" width="300" height="300">
+        </div>
+        <div id="video">
+            <h1>Video</h1>
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/RO5VewQjRMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
+    
+    <footer class="footer">
+		<div class="conteneur">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>Limite Absolue</h4>
+  	 			<ul>
+  	 				<li><a href="#">Qui?</a></li>
+  	 				<li><a href="#">Nos services</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Besoin d'aide</h4>
+  	 			<ul>
+  	 				<li><a href="#">Question</a></li>
+  	 				<li><a href="#">Livraison</a></li>
+  	 				<li><a href="#">Retours</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Suivez-Nous!</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+    </div>
+</body>
+</html>
